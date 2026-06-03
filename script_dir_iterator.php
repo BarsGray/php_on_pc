@@ -2,8 +2,12 @@
 $map = [];
 $counter = 1;
 
-$iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator('upload'));
+if (!is_dir('temp')) {
+  mkdir('temp');
+}
 
+$iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator('img'));
+  
 foreach ($iterator as $file) {
 
     if (!$file->isFile()) {
@@ -12,13 +16,29 @@ foreach ($iterator as $file) {
     // $ext = strtolower($file->getExtension());
     $ext = $file->getExtension();
 
-    if (!in_array($ext, ['jpg', 'jpeg', 'png', 'webp', 'JPG', 'JPEG', 'PNG', 'WEBP'])) {
+    if (!in_array($ext, ['jpg', 'jpeg', 'png', 'webp', 'svg', 'JPG', 'JPEG', 'PNG', 'WEBP', 'SVG'])) {
       continue;
     }
+    
+    // Пример
+    // if (!is_dir("temp/" . str_replace($file->getFilename(), '', $file->getPathname()))) {
+    //   mkdir("temp/" . str_replace($file->getFilename(), '', $file->getPathname()), true);
+    // }
+    // if (!is_dir("temp/" . dirname($file->getPathname()))) {
+    //   mkdir("temp/" . dirname($file->getPathname()), true);
+    // }
 
     $newName = $counter . '_' . $file->getFilename();
-    copy($file->getPathname(), "temp/$newName");
+    
+    // Пример
+    // copy($file->getPathname(), "temp/" . $file->getPathname());
+    
+    copy($file->getPathname(), "temp/" . $newName);
     $map[$newName] = $file->getPathname();
+
+    // Пример
+    // file_put_contents('test.php', $file . "\n", FILE_APPEND);
+    // print_r(get_class_methods($file));
 
     $counter++;
 }
