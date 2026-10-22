@@ -1,0 +1,11 @@
+{
+    "source": "encar.com",
+    "id": "42713434",
+    "requested_url": "https://fem.encar.com/cars/option/42711729",
+    "final_url": "https://fem.encar.com/cars/option/42711729",
+    "http_status": 200,
+    "fetched_at": "2026-10-22T12:01:01+03:00",
+    "html_bytes": 2558,
+    "title": "옵션정보 : 내차팔기·내차사기",
+    "json_ld": []
+}
