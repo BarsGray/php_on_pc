@@ -7,7 +7,7 @@ $file = fopen('f1.txt', 'a');
 while($count > 0) {
   fwrite($file, 'text' . $count . "\n");
   $count--;
-  }
+}
 fclose($file);
 
 $file = fopen('f1.txt', 'r');
