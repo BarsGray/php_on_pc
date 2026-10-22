@@ -8,6 +8,9 @@ $ch = curl_init($url);
 
 // https://fem.encar.com/cars/detail/41217943?pageid=dc_carsearch&listAdvType=normal&carid=41217943&view_type=hs_ad&adv_attribute=hs_ad&wtClick_korList=019&advClickPosition=kor_normal_p1_g1&tempht_arg=1x3DSI8ivj57_0
 // https://fem.encar.com/cars/detail/42011724?pageid=dc_carsearch&listAdvType=normal&carid=42011724&view_type=hs_ad&adv_attribute=hs_ad&wtClick_korList=019&advClickPosition=kor_normal_p1_g2&tempht_arg=1x3DSI8ivj57_1
+//https://www.encar.com/dc/dc_carsearchlist.do?carType=kor#!%7B%22action%22%3A%22(And.Hidden.N._.CarType.Y.)%22%2C%22toggle%22%3A%7B%7D%2C%22layer%22%3A%22%22%2C%22sort%22%3A%22ModifiedDate%22%2C%22page%22%3A1%2C%22limit%22%3A20%2C%22searchKey%22%3A%22%22%2C%22loginCheck%22%3Afalse%7D
+//https://www.encar.com/dc/dc_carsearchlist.do?carType=kor#!%7B%22action%22%3A%22(And.Hidden.N._.CarType.Y.)%22%2C%22toggle%22%3A%7B%7D%2C%22layer%22%3A%22%22%2C%22sort%22%3A%22ModifiedDate%22%2C%22page%22%3A2%2C%22limit%22%3A20%2C%22searchKey%22%3A%22%22%2C%22loginCheck%22%3Afalse%7D
+
 
 curl_setopt_array($ch, [CURLOPT_RETURNTRANSFER => true,CURLOPT_FOLLOWLOCATION => true,CURLOPT_MAXREDIRS => 5,CURLOPT_CONNECTTIMEOUT => 15,CURLOPT_TIMEOUT => 30,CURLOPT_USERAGENT => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0.0.0 Safari/537.36']);
 
