@@ -1,0 +1,75 @@
+
+========================================
+Date: 2026-10-29 11:19:06
+Function: _load_textdomain_just_in_time
+Message: Translation loading for the <code>all-in-one-seo-pack</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later.
+Stack trace:
+#0 /home/k/kraskirav/public_html/wp-includes/class-wp-hook.php:353 — {closure}
+#1 /home/k/kraskirav/public_html/wp-includes/class-wp-hook.php:377 — WP_Hook->apply_filters
+#2 /home/k/kraskirav/public_html/wp-includes/plugin.php:523 — WP_Hook->do_action
+#3 /home/k/kraskirav/public_html/wp-includes/functions.php:6123 — do_action
+#4 /home/k/kraskirav/public_html/wp-includes/l10n.php:1445 — _doing_it_wrong
+#5 /home/k/kraskirav/public_html/wp-includes/l10n.php:1483 — _load_textdomain_just_in_time
+#6 /home/k/kraskirav/public_html/wp-includes/l10n.php:195 — get_translations_for_domain
+#7 /home/k/kraskirav/public_html/wp-includes/l10n.php:307 — translate
+#8 /home/k/kraskirav/public_html/wp-content/plugins/all-in-one-seo-pack/aioseop_class.php:239 — __
+#9 /home/k/kraskirav/public_html/wp-content/plugins/all-in-one-seo-pack/class-aioseop-core.php:97 — All_in_One_SEO_Pack->__construct
+#10 /home/k/kraskirav/public_html/wp-includes/class-wp-hook.php:353 — AIOSEOP_Core->init
+#11 /home/k/kraskirav/public_html/wp-includes/class-wp-hook.php:377 — WP_Hook->apply_filters
+#12 /home/k/kraskirav/public_html/wp-includes/plugin.php:523 — WP_Hook->do_action
+#13 /home/k/kraskirav/public_html/wp-settings.php:630 — do_action
+#14 /home/k/kraskirav/public_html/wp-config.php:81 — require_once
+#15 /home/k/kraskirav/public_html/wp-load.php:50 — require_once
+#16 /home/k/kraskirav/public_html/wp-blog-header.php:13 — require_once
+#17 /home/k/kraskirav/public_html/index.php:17 — require
+========================================
+
+========================================
+Date: 2026-10-29 11:19:07
+Function: _load_textdomain_just_in_time
+Message: Translation loading for the <code>all-in-one-seo-pack</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later.
+Stack trace:
+#0 /home/k/kraskirav/public_html/wp-includes/class-wp-hook.php:353 — {closure}
+#1 /home/k/kraskirav/public_html/wp-includes/class-wp-hook.php:377 — WP_Hook->apply_filters
+#2 /home/k/kraskirav/public_html/wp-includes/plugin.php:523 — WP_Hook->do_action
+#3 /home/k/kraskirav/public_html/wp-includes/functions.php:6123 — do_action
+#4 /home/k/kraskirav/public_html/wp-includes/l10n.php:1445 — _doing_it_wrong
+#5 /home/k/kraskirav/public_html/wp-includes/l10n.php:1483 — _load_textdomain_just_in_time
+#6 /home/k/kraskirav/public_html/wp-includes/l10n.php:195 — get_translations_for_domain
+#7 /home/k/kraskirav/public_html/wp-includes/l10n.php:307 — translate
+#8 /home/k/kraskirav/public_html/wp-content/plugins/all-in-one-seo-pack/aioseop_class.php:239 — __
+#9 /home/k/kraskirav/public_html/wp-content/plugins/all-in-one-seo-pack/class-aioseop-core.php:97 — All_in_One_SEO_Pack->__construct
+#10 /home/k/kraskirav/public_html/wp-includes/class-wp-hook.php:353 — AIOSEOP_Core->init
+#11 /home/k/kraskirav/public_html/wp-includes/class-wp-hook.php:377 — WP_Hook->apply_filters
+#12 /home/k/kraskirav/public_html/wp-includes/plugin.php:523 — WP_Hook->do_action
+#13 /home/k/kraskirav/public_html/wp-settings.php:630 — do_action
+#14 /home/k/kraskirav/public_html/wp-config.php:81 — require_once
+#15 /home/k/kraskirav/public_html/wp-load.php:50 — require_once
+#16 /home/k/kraskirav/public_html/wp-blog-header.php:13 — require_once
+#17 /home/k/kraskirav/public_html/index.php:17 — require
+========================================
+
+========================================
+Date: 2026-10-29 11:19:09
+Function: _load_textdomain_just_in_time
+Message: Translation loading for the <code>all-in-one-seo-pack</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later.
+Stack trace:
+#0 /home/k/kraskirav/public_html/wp-includes/class-wp-hook.php:353 — {closure}
+#1 /home/k/kraskirav/public_html/wp-includes/class-wp-hook.php:377 — WP_Hook->apply_filters
+#2 /home/k/kraskirav/public_html/wp-includes/plugin.php:523 — WP_Hook->do_action
+#3 /home/k/kraskirav/public_html/wp-includes/functions.php:6123 — do_action
+#4 /home/k/kraskirav/public_html/wp-includes/l10n.php:1445 — _doing_it_wrong
+#5 /home/k/kraskirav/public_html/wp-includes/l10n.php:1483 — _load_textdomain_just_in_time
+#6 /home/k/kraskirav/public_html/wp-includes/l10n.php:195 — get_translations_for_domain
+#7 /home/k/kraskirav/public_html/wp-includes/l10n.php:307 — translate
+#8 /home/k/kraskirav/public_html/wp-content/plugins/all-in-one-seo-pack/aioseop_class.php:239 — __
+#9 /home/k/kraskirav/public_html/wp-content/plugins/all-in-one-seo-pack/class-aioseop-core.php:97 — All_in_One_SEO_Pack->__construct
+#10 /home/k/kraskirav/public_html/wp-includes/class-wp-hook.php:353 — AIOSEOP_Core->init
+#11 /home/k/kraskirav/public_html/wp-includes/class-wp-hook.php:377 — WP_Hook->apply_filters
+#12 /home/k/kraskirav/public_html/wp-includes/plugin.php:523 — WP_Hook->do_action
+#13 /home/k/kraskirav/public_html/wp-settings.php:630 — do_action
+#14 /home/k/kraskirav/public_html/wp-config.php:81 — require_once
+#15 /home/k/kraskirav/public_html/wp-load.php:50 — require_once
+#16 /home/k/kraskirav/public_html/wp-blog-header.php:13 — require_once
+#17 /home/k/kraskirav/public_html/index.php:17 — require
+========================================

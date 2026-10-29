@@ -65,6 +65,7 @@
 
 
 $url = 'https://www.che168.com/dealer/497822/60281764.html#pvareaid=100496#userpid=410000#usercid=410100';
+$url = 'https://www.che168.com/dealer/497822/60281764.html';
 
 $ch = curl_init();
 
@@ -82,7 +83,7 @@ curl_setopt_array($ch, [
 
     // TLS
     CURLOPT_SSL_VERIFYPEER => false,
-    CURLOPT_SSL_VERIFYHOST => 0,
+    CURLOPT_SSL_VERIFYHOST => false,
 
     // // HTTP
     CURLOPT_FOLLOWLOCATION => true,
@@ -103,7 +104,7 @@ $info = curl_getinfo($ch);
 echo "HTTP status: " . $info['http_code'] . PHP_EOL;
 
 if ($res === false) {
-    echo "cURL error: " . $error . PHP_EOL;
+    echo "cURL error: " . $error . PHP_EOL; 
 } else {
     echo $res;
 }
